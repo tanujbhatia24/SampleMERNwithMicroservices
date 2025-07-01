@@ -4,12 +4,12 @@
 
 For `helloService`, create `.env` file with the content:
 ```bash
-PORT=3001
+PORT=3000
 ```
 
 For `profileService`, create `.env` file with the content:
 ```bash
-PORT=3002
+PORT=3001
 MONGO_URL="specifyYourMongoURLHereWithDatabaseNameInTheEnd"
 ```
 

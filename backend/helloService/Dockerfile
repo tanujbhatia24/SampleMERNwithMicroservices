@@ -14,7 +14,10 @@ RUN npm install
 # Bundle app source
 COPY . .
 
-EXPOSE 3000
+# Create .env file (example values)
+RUN echo "PORT=3000" >> .env
+
+    EXPOSE 3000
 
 #Define the command
 CMD [ "node", "index.js" ]

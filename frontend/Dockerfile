@@ -2,6 +2,7 @@ FROM node:16
 
 # Working directory be app
 WORKDIR /usr/src/app
+
 COPY package*.json ./
 
 ###  Installing dependencies
